@@ -3,8 +3,8 @@
 let timeOffset = 0;
 let totalMin = 195;
 let lineHeight = 60;
-let leftMargin = 133;
-let topMargin = 223;
+let leftMargin = 60;
+let topMargin = 98;
 let triY = 90;
 let offset = 7;
 
