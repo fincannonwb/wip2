@@ -2,9 +2,9 @@
 
 let timeOffset = 0;
 let totalMin = 195;
-let lineHeight = 50;
-let leftMargin = 50;
-let topMargin = 113;
+let lineHeight = 60;
+let leftMargin = 133;
+let topMargin = 223;
 let triY = 90;
 let offset = 7;
 
@@ -13,12 +13,10 @@ let offset = 7;
 
 function setup() {
 
-	let cnv = createCanvas(500, windowHeight);
+	let cnv = createCanvas(1500, 1000);
 	noStroke();
-	cnv.position(10, 110);
-	
-	
-	
+	cnv.position(0, 0);
+	cnv.parent('sketch-div');
 }
 
 function draw() {
@@ -26,9 +24,7 @@ function draw() {
 	clear();
 
 	fill(0,80);
-	rect(100, 120, 1, 490);
-	//	triangle(95, 120, 105, 120, 100,  125);
-	//	rect(91, 610, 19, 2);
+	rect(leftMargin, 8 + topMargin, 1, 490);
 
 	let sec = map(minute(), 0, totalMin, 0, 490);
 	
@@ -53,12 +49,12 @@ function draw() {
 
 
 
-	rect(93, offset + topMargin + 0, 15, 1);
-	rect(93, offset + topMargin + 113.076923076923077, 15, 1);
-	rect(93, offset + topMargin + 150.769230769230769, 15, 1);
-	rect(93, offset + topMargin + 263.846153846153846, 15, 1);
-	rect(93, offset + topMargin + 376.923076923076923, 15, 1);
-	rect(93, offset + topMargin + 490, 15, 1);
+	rect(leftMargin - 7, offset + topMargin + 0, 15, 1);
+	rect(leftMargin - 7, offset + topMargin + 113.076923076923077, 15, 1);
+	rect(leftMargin - 7, offset + topMargin + 150.769230769230769, 15, 1);
+	rect(leftMargin - 7, offset + topMargin + 263.846153846153846, 15, 1);
+	rect(leftMargin - 7, offset + topMargin + 376.923076923076923, 15, 1);
+	rect(leftMargin - 7, offset + topMargin + 490, 15, 1);
 
 
 
