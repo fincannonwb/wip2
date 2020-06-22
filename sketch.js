@@ -15,7 +15,7 @@ function setup() {
 
 	let cnv = createCanvas(500, windowHeight);
 	noStroke();
-	cnv.position(10, 117);
+	cnv.position(10, 110);
 	
 	
 	

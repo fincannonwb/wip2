@@ -84,10 +84,20 @@ p
 	
 }
 
+#logo
+{
+	margin-top: -7px;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-color: black;
+}
+
 #goldsmiths
 {
 	position: absolute;
 	margin-top: -7px;
+	margin-left: 50px;
 	width: 700px;
 	height: 50px;
 	float: left;
@@ -99,6 +109,7 @@ p
 {
 	position: absolute;
 	margin-top: 15px;
+	margin-left: 50px;
 	width: 700px;
 	height: 50px;
 	float: left;
@@ -110,7 +121,7 @@ p
 {
 	position: absolute;
 	margin-top: 15px;
-	margin-left: 217px;
+	margin-left: 267px;
 	width: 700px;
 	height: 50px;
 	float: left;
@@ -138,7 +149,7 @@ p
 	width: 450px;
 	height: 550px;
 	float: left;
-	font-size: 30px;
+	font-size: 25px;
 	margin-left: 50px;
 	margin-right: 0px;
 	margin-top: 125px;
@@ -227,11 +238,11 @@ img
 {
 	position: absolute;
 	margin-top: 125px;
-	margin-left: 700px;
+	margin-left: 670px;
 	margin-bottom: 20px;
 	height: 50px;
 	float:left;
-	font-size: 30px;
+	font-size: 25px;
 	font-family: 'Avenir Black';
 	
 }
@@ -244,7 +255,7 @@ img
 	width: 200px;
 	height: 50px;
 	float: left;
-	font-size: 30px;
+	font-size: 25px;
 	font-family: 'Avenir Black';
 	
 }
