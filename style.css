@@ -50,8 +50,15 @@ b
 	font-family: 'Avenir Black';
 }
 
+p
+{
+	color: black;
+	opacity: 50%;
+}
+
 #container 
 {
+	background-color: white;
 	position: absolute;
 	margin: auto;
 	width: 100vw;
@@ -64,46 +71,60 @@ b
 
 #header
 {
-	width: 0px;
-	height: 150px;
-	padding-top: 30px;
-	padding-left: 50px;
+	background-color: white;
+	width: 1250px;
+	height: 50px;
+	padding-top: 27px;
+	margin-left: 50px;
 	float: left;
+	border-bottom: solid;
+	border-color: black;
+	border-width: 4px;
+	
+	
+}
+
+#goldsmiths
+{
+	position: absolute;
+	margin-top: -7px;
+	width: 700px;
+	height: 50px;
+	float: left;
+	font-size: 15px;
+	font-family: 'Avenir MEDIUM';
 }
 
 #title
 {
 	position: absolute;
-	width: 500px;
-	height: 150px;
+	margin-top: 15px;
+	width: 700px;
+	height: 50px;
 	float: left;
-	font-size: 60px;
+	font-size: 15px;
 	font-family: 'Avenir Black';
-
 }
 
-#zoombox
+#title2
 {
-	background-color: white;
-	width: 380px;
-	height: 20px;
-	float: right;
-	border-width: 1px;
-	border-color: black;
-	border-style: solid;
-	padding: 7px;
-	margin-top: 50px;
-	margin-right: 100px;
-	z-index: 1;
-
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 217px;
+	width: 700px;
+	height: 50px;
+	float: left;
+	font-size: 15px;
+	font-family: 'Avenir Black';
+	opacity: 50%;
 }
 
 #zoom
 {
+	margin-top:15px;
 	font-size: 15px;
 	color: black;
-	float:left;
-	margin-right: 10px;
+	float:right;
 }
 
 #link
@@ -114,7 +135,6 @@ b
 #schedule 
 {
 	position: absolute;
-	background-color: white;
 	width: 450px;
 	height: 550px;
 	float: left;
@@ -162,7 +182,7 @@ b
 	position: absolute;
 	margin-top: 200px;
 	margin-left: 500px;
-	width: 700px;
+	width: 650px;
 	height: 550px;
 	float: left;
 	color: black;

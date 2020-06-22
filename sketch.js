@@ -25,7 +25,7 @@ function draw() {
 
 	clear();
 
-	fill(0);
+	fill(0,80);
 	rect(100, 120, 1, 490);
 	//	triangle(95, 120, 105, 120, 100,  125);
 	//	rect(91, 610, 19, 2);
