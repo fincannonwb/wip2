@@ -45,6 +45,7 @@ html, body
 a
 {
 	color:cadetblue;
+	cursor: default;
 }
 
 b
@@ -155,7 +156,7 @@ span
 	font-size: 25px;
 	margin-left: 25px;
 	margin-right: 0px;
-	margin-top: 125px;
+	margin-top: 120px;
 }
 
 #date
@@ -174,8 +175,6 @@ span
 	font-family: 'Avenir Black';
 }
 
-
-
 #presenters
 {
 	font-size: 15px;
@@ -188,10 +187,10 @@ span
 #artists
 {
 	position: absolute;
-	margin-top: 200px;
+	margin-top: 185px;
 	margin-left: 450px;
 	width: 725px;
-	height: 528px;
+	height: 540px;
 	float: left;
 	color: black;
 	font-size: 30px;
@@ -234,33 +233,35 @@ img
 #artistsTitle
 {
 	position: absolute;
-	margin-top: 125px;
+	margin-top: 120px;
 	margin-left: 620px;
 	margin-bottom: 20px;
 	height: 50px;
 	float:left;
 	font-size: 25px;
 	font-family: 'Avenir Black';
+	cursor: default;
 	
 }
 
 #livestreamTitle
 {
 	position: absolute;
-	margin-top: 125px;
+	margin-top: 120px;
 	margin-left: 450px;
 	width: 200px;
 	height: 50px;
 	float: left;
 	font-size: 25px;
 	font-family: 'Avenir Black';
+	cursor: default;
 	
 }
 
 #livestream
 {
 	position: absolute;
-	margin-top: 190px;
+	margin-top: 180px;
 	margin-left: 450px;
 	margin-bottom: 50px;
 	float: left;

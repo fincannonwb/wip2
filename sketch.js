@@ -5,8 +5,11 @@ let totalMin = 195;
 let lineHeight = 60;
 let leftMargin = 60;
 let topMargin = 98;
-let triY = 90;
+let triY = 0;
+let triX = 60;
 let offset = 7;
+let triSize = 5;
+let shapeOffset= 98;
 
 
 
@@ -47,7 +50,7 @@ function draw() {
 		}
 	}
 
-
+	triY = sec + timeOffset;
 
 	rect(leftMargin - 7, offset + topMargin + 0, 15, 1);
 	rect(leftMargin - 7, offset + topMargin + 113.076923076923077, 15, 1);
@@ -58,12 +61,14 @@ function draw() {
 
 
 
-	let c = color(0, 255, 0);
+	let c = color(0);
 	fill(c);
-	if (hour() >= 11 && hour()<=15){
-	rect(20, timeOffset + sec + 30 + triY, 420, 1);
-	triangle(20, timeOffset + sec + 20 + triY, 30, timeOffset + sec + 30 + triY, 20, timeOffset + sec + 40 + triY);
-	}
+//	if (hour() >= 11 && hour()<=15){
+//	rect(20, timeOffset + sec + 30 + triY, 420, 1);
+//	triangle(20, timeOffset + sec + 20 + triY, 30, timeOffset + sec + 30 + triY, 20, timeOffset + sec + 40 + triY);
+	triangle(triX + 1, triY + 1 + shapeOffset, triX + triSize + 3, triY + triSize + shapeOffset, triX + 1, triY + (triSize * 2) - 1 + shapeOffset);
+//	circle(triX, timeOffset + triY + 5 + shapeOffset, 9);
+//	}
 }
 
 
