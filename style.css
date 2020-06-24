@@ -44,8 +44,9 @@ html, body
 
 a
 {
+	text-decoration: none;
 	color:cadetblue;
-	cursor: default;
+	cursor: pointer;
 }
 
 b
@@ -150,13 +151,17 @@ span
 #schedule 
 {
 	position: absolute;
-	width: 450px;
-	height: 550px;
+	width: 380px;
+	height: 605px;
 	float: left;
 	font-size: 25px;
 	margin-left: 25px;
 	margin-right: 0px;
 	margin-top: 120px;
+	border-right: solid;
+	border-color: gray;
+	border-width: 1px;
+
 }
 
 #date
@@ -197,7 +202,7 @@ span
 	font-family: 'Avenir Black';
 	overflow: scroll;
 	border-bottom: solid;
-	border-color: black;
+	border-color: lightgray;
 	border-width: 1px;
 	
 }

@@ -25,8 +25,9 @@ function setup() {
 function draw() {
 
 	clear();
+	background(255);
 
-	fill(0,80);
+	fill(0, 80);
 	rect(leftMargin, 8 + topMargin, 1, 490);
 
 	let sec = map(minute(), 0, totalMin, 0, 490);
@@ -66,7 +67,7 @@ function draw() {
 //	if (hour() >= 11 && hour()<=15){
 //	rect(20, timeOffset + sec + 30 + triY, 420, 1);
 //	triangle(20, timeOffset + sec + 20 + triY, 30, timeOffset + sec + 30 + triY, 20, timeOffset + sec + 40 + triY);
-	triangle(triX + 1, triY + 1 + shapeOffset, triX + triSize + 3, triY + triSize + shapeOffset, triX + 1, triY + (triSize * 2) - 1 + shapeOffset);
+	triangle(triX + 1, triY + 1 + shapeOffset + 2, triX + triSize + 3, triY + triSize + shapeOffset + 2, triX + 1, triY + (triSize * 2) - 1 + shapeOffset + 2);
 //	circle(triX, timeOffset + triY + 5 + shapeOffset, 9);
 //	}
 }
