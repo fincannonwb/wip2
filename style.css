@@ -15,8 +15,6 @@
     src:url(typefaces/Avenir-Book.ttf) format("truetype");
 }
 
-
-
 #sketch-div 
 {
   position:absolute;
@@ -68,10 +66,7 @@ span
 	width: 1200px;
 	height: 100%; 
 	overflow: hidden;
-	
-	
 }
-
 
 #header
 {
@@ -94,7 +89,13 @@ span
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	background-color: black;
+	background-color: black;	
+}
+
+#logoPic
+{
+	width: 40px;
+	height: 40px;
 }
 
 #goldsmiths
@@ -191,8 +192,8 @@ span
 
 #artists
 {
-	position: absolute;
-	margin-top: 185px;
+	position: relative;
+	margin-top: 100px;
 	margin-left: 450px;
 	width: 725px;
 	height: 540px;
@@ -210,29 +211,31 @@ span
 
 #images
 {
+	position: relative;
 	width: 100px;
-	height: 1200px;
+	height: 1300px;
 	margin-right: 20px;
 	float:left;
 }
 
 img
 {
+	position: relative;
 	width: 100px;
 	height: 100px;
-	margin-bottom: 30px;
 	float:left;
 	
 }
 
 .thumb
 {
+	position: relative;
 	font-size: 15px;
 	width: 500px;
 	height: 100px;
+	margin-bottom: 30px;
 	float: left;
 	font-family: "Avenir Medium";
-	margin-bottom: 30px;
 }
 
 #artistsTitle
@@ -294,6 +297,12 @@ img
 	display: block;
 }
 
+.imageClass
+{
+	position: relative;
+	float: left;
+	margin-bottom: 30px;
+}
 
 #baqi
 {
@@ -306,35 +315,39 @@ img
 
 #batool
 {
-/*
-	background-image: url(thumbs/ThumbnailBatool.png);
-	background-size: cover;
-*/
+	margin-bottom: 110px;
+}
+#batoolImage
+{
+	position: relative;
+	float: left;
+	margin-bottom: 110px;
 }
 
 #becky
 {
-/*
-	background-image: url(thumbs/ThumbnailBatool.png);
-	background-size: cover;
-*/
+}
+
+#beckyImage
+{
+	position: relative;
+	float: left;
 }
 
 #daniah
 {
-/*
-	background-image:url(thumbs/baqi.JPG);
-	background-size:cover;
-	background-position: center 220px;
-*/
+	
 }
 
 #dongyuan
 {
-/*
-	background-image: url(thumbs/dongyuan.JPG);
-	background-size: cover;
-*/
+	margin-bottom: 150px;
+}
+#dongyuanImage
+{
+	position: relative;
+	float: left;
+	margin-bottom: 150px;
 }
 
 #williams
