@@ -180,12 +180,10 @@ span
 	font-size: 30px;
 	font-family: 'Avenir Black';
 	overflow: scroll;
-/*
 	border-bottom: solid;
 	border-color: lightgray;
 	border-width: 1px;
-*/
-	box-shadow: inset 0px -6px 6px -6px lightgray ;
+/*	box-shadow: inset 0px -6px 6px -6px lightgray ;*/
 	
 }
 
@@ -207,6 +205,18 @@ img
 	height: 100px;
 	float:left;
 	
+}
+
+#youtube
+{
+	background-image: url(thumbs/209-2095201_youtube-dark-icon-black-youtube-logo-png.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: right;
+	margin-right: 45px;
+	margin-top: 15px;
+	width: 30px;
+	height: 30px;
 }
 
 .thumb
@@ -250,6 +260,7 @@ img
 
 #livestream
 {
+	height: 470px;
 	position: absolute;
 	margin-top: 180px;
 	margin-left: 450px;
@@ -257,7 +268,13 @@ img
 	float: left;
 	font-size: 30px;
 	font-family: 'Avenir Black';
+/*
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: lightgray;
+*/
 }
+
 
 
 .tabOff
