@@ -122,28 +122,6 @@ span
 	font-family: 'Avenir Black';
 }
 
-#title2
-{
-	position: absolute;
-	margin-top: 15px;
-	margin-left: 267px;
-	width: 700px;
-	height: 50px;
-	float: left;
-	font-size: 15px;
-	font-family: 'Avenir Black';
-	opacity: 50%;
-}
-
-#zoom
-{
-	margin-top:15px;
-	margin-right: 40px;
-	font-size: 15px;
-	color: black;
-	float:right;
-}
-
 #link
 {
 	font-size: 15px;
@@ -202,18 +180,22 @@ span
 	font-size: 30px;
 	font-family: 'Avenir Black';
 	overflow: scroll;
+/*
 	border-bottom: solid;
 	border-color: lightgray;
 	border-width: 1px;
+*/
+	box-shadow: inset 0px -6px 6px -6px lightgray ;
 	
 }
+
 
 
 #images
 {
 	position: relative;
 	width: 100px;
-	height: 1300px;
+	height: 2000px;
 	margin-right: 20px;
 	float:left;
 }
@@ -306,11 +288,14 @@ img
 
 #baqi
 {
-/*
-	background-image:url(thumbs/baqi.JPG);
-	background-size:cover;
-	background-position: center 220px;
-*/
+	margin-bottom: 110px;
+}
+
+#baqiImage
+{
+	position: relative;
+	float: left;
+	margin-bottom: 110px;
 }
 
 #batool
@@ -352,28 +337,28 @@ img
 
 #williams
 {
-/*
-	background-image:url(thumbs/will1.jpg);
-	background-size:cover;
-	background-position: center 220px;
-*/
 }
 
 #shuai
 {
-/*
-	background-image:url(thumbs/baqi.JPG);
-	background-size:cover;
-	background-position: center 220px;
-*/
+ 
+}
+
+#shuaiImage
+{
+ 
 }
 
 #ziwei
 {
-/*
-	background-image: url(thumbs/will2.JPG);
-	background-size: cover;
-*/
+	margin-bottom: 310px;
+}
+
+#ziweiImage
+{
+	position: relative;
+	float: left;
+	margin-bottom: 310px;
 }
 
 #keita
@@ -387,3 +372,408 @@ img
 
 
 
+@media screen and (max-width: 480px) {
+	
+	
+#sketch-div 
+{
+	position:absolute;
+ 	margin-left: -9px;
+	margin-top: -13px;
+ 	width:100%;
+ 	height:100%;
+ 	z-index:-1;
+}
+
+html, body
+{
+	
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	margin: 0;	
+	font-size: 15px;
+	text-align: left;
+	font-family: 'Avenir Medium';
+	display: inline-block;
+	color:black;
+	overflow-x: hidden;
+	
+}
+
+a
+{
+	text-decoration: none;
+	color:cadetblue;
+	cursor: pointer;
+}
+
+b
+{
+	font-family: 'Avenir Black';
+}
+
+span
+{
+	color: black;
+	opacity: 50%;
+}
+
+#container 
+{
+	
+/*	position: absolute;*/
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto; 
+}
+
+#header
+{
+	background-color: white;
+	width: 100%;
+	height: 50px;
+	padding-top: 27px;
+	float: left;
+	border-bottom: solid;
+	border-color: black;
+	border-width: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+#logo
+{
+	margin-top: -7px;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-color: black;	
+}
+
+#logoPic
+{
+	width: 40px;
+	height: 40px;
+}
+
+#goldsmiths
+{
+	position: relative;
+	margin-top: -7px;
+	margin-left: 50px;
+	width: 50px;
+	height: 50px;
+	float: left;
+	font-size: 15px;
+	font-family: 'Avenir Medium';
+}
+
+#title
+{
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 50px;
+	width: 270px;
+	height: 50px;
+	float: left;
+	font-size: 15px;
+	font-family: 'Avenir Black';
+}
+
+#link
+{
+	font-size: 15px;
+}
+
+#schedule 
+{
+	position: relative;
+	width: 355px;
+	height: 620px;
+	float: left;
+	font-size: 25px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-top: 300px;
+	border-right: none;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: lightgray;
+
+}
+
+#date
+{
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#times
+{
+	font-size: 15px;
+	line-height: 50%;
+	margin-right: 10px;
+	float: left;
+	font-family: 'Avenir Black';
+}
+
+#presenters
+{
+	font-size: 15px;
+	line-height: 50%;
+	float: left;
+	margin-left: 15px;
+	
+}
+
+#artists
+{
+	position: relative;
+	margin-top: 70px;
+	margin-left: 10px;
+	width: 500px;
+	height: 2500px;
+	float: left;
+	color: black;
+	font-size: 30px;
+	font-family: 'Avenir Black';
+	word-wrap: break-word;
+	overflow: visible;
+/*
+	border-bottom: solid;
+	border-color: lightgray;
+	border-width: 1px;
+*/
+	box-shadow: none;
+	display: block;
+	
+}
+
+
+
+#images
+{
+	position: relative;
+	width: 40px;
+	height: 2500px;
+	margin-right: 15px;
+	float:left;
+/*	display: none;*/
+}
+
+img
+{
+	position: relative;
+	width: 40px;
+	height: 40px;
+	float:left;
+	
+}
+
+.thumb
+{
+	position: relative;
+	font-size: 15px;
+	width: 300px;
+	height: 100px;
+	margin-bottom: 30px;
+	float: left;
+	word-wrap: break-word;
+	font-family: "Avenir Medium";
+}
+
+#artistsTitle
+{
+	position: absolute;
+	margin-top: 1020px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	height: 50px;
+	float:left;
+	font-size: 25px;
+	font-family: 'Avenir Black';
+	cursor: default;
+	
+}
+
+#livestreamTitle
+{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 10px;
+	width: 200px;
+	height: 50px;
+	float: left;
+	font-size: 25px;
+	font-family: 'Avenir Black';
+	cursor: default;
+	
+}
+
+#livestream
+{
+	width: calc(100% - 20px);
+	height: 220px;
+	position: absolute;
+	margin-top: 145px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	float: left;
+	font-size: 30px;
+	font-family: 'Avenir Black';
+	border-bottom: solid;
+	border-color: lightgray;
+	border-width: 1px;
+}
+	
+iframe
+{
+	width: 100%;
+	height: 200px;
+}
+	
+
+
+.tabOff
+{
+	opacity: 100%;
+}
+.tabOn
+{
+	opacity: 100%;
+}
+
+.hide
+{
+	display: block;
+}
+
+.show
+{
+	display: block;
+}
+
+.imageClass
+{
+	position: relative;
+	float: left;
+	margin-bottom: 30px;
+}
+
+#becky
+{
+	margin-bottom: 27px;
+}
+
+#beckyImage
+{
+	position: relative;
+	float: left;
+	margin-bottom: 90px;
+}
+
+#daniah
+{
+	margin-bottom: 0px;
+}
+
+#daniahImage
+{
+	position: relative;
+	float: left;
+	margin-bottom: 57px;
+}
+	
+
+#keita
+{
+	margin-bottom: 0px;
+}
+
+
+#keitaImage
+{
+	position: relative;
+	float: left;
+	margin-bottom: 57px;
+}
+	
+#dongyuan
+{
+	margin-bottom: 290px;
+}
+	
+#dongyuanImage
+{
+	position: relative;
+	float: left;
+	margin-bottom: 353px;
+}
+	
+#batool
+{
+	margin-bottom: 240px;
+}
+#batoolImage
+{
+	position: relative;
+	float: left;
+	margin-bottom: 302px;
+}
+	
+#ziwei
+{
+	margin-bottom: 600px;
+}
+	
+#ziweiImage
+{
+	position: relative;
+	float: left;
+	margin-bottom: 660px;
+}
+	
+#shuai
+{
+	margin-bottom: 40px;
+}
+	
+#shuaiImage
+{
+	position: relative;
+	float: left;
+	margin-bottom: 100px;
+}
+	
+#baqi
+{
+	margin-bottom: 225px;
+}
+	
+#baqiImage
+{
+	position: relative;
+	float: left;
+	margin-bottom: 285px;
+}
+
+
+#williams
+{
+
+}
+	
+
+#williamsImage
+{
+
+}
+
+
+
+}

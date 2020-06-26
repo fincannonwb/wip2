@@ -12,8 +12,6 @@ let triSize = 5;
 let shapeOffset= 98;
 
 
-
-
 function setup() {
 
 	let cnv = createCanvas(1500, 1000);
