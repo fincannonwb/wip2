@@ -417,6 +417,20 @@ html, body
 	overflow-x: hidden;
 	
 }
+	
+	
+#youtube
+{
+	background-image: url(thumbs/209-2095201_youtube-dark-icon-black-youtube-logo-png.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: right;
+	margin-right: 45px;
+	margin-top: 15px;
+	width: 30px;
+	height: 30px;
+	display: none;
+}
 
 a
 {
