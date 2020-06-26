@@ -414,7 +414,7 @@ html, body
 	font-family: 'Avenir Medium';
 	display: inline-block;
 	color:black;
-	overflow-x: hidden;
+	overflow-x: auto;
 	
 }
 	
@@ -574,7 +574,7 @@ span
 	font-size: 30px;
 	font-family: 'Avenir Black';
 	word-wrap: break-word;
-	overflow: visible;
+	overflow: auto;
 /*
 	border-bottom: solid;
 	border-color: lightgray;
