@@ -30,19 +30,19 @@ function draw() {
 
 	let sec = map(minute(), 0, totalMin, 0, 490);
 	
-	if(hour() == 6) {
+	if(hour() == 15) {
 		timeOffset = -((30*490)/195);
 	}
 
-	if (hour() == 7) {
+	if (hour() == 16) {
 		timeOffset = (30 * 490) / 195;
 	}
 
-	if (hour() == 8) {
+	if (hour() == 17) {
 		timeOffset = (90 * 490) / 195;
 	}
 
-	if (hour() == 14) {
+	if (hour() == 18) {
 		timeOffset = (150 * 490) / 195;
 		if(minute() > 15){
 			timeOffset = 0;
