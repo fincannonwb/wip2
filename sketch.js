@@ -1,6 +1,6 @@
 'use strict';
 
-let timeOffset = 0;
+let timeOffset = -((30*195)/100);
 let totalMin = 195;
 let lineHeight = 60;
 let leftMargin = 60;
@@ -30,20 +30,20 @@ function draw() {
 
 	let sec = map(minute(), 0, totalMin, 0, 490);
 	
-	if(hour() == 11) {
-		timeOffset = 0;
+	if(hour() == 6) {
+		timeOffset = -((30*490)/195);
 	}
 
-	if (hour() == 12) {
-		timeOffset = (60 * 490) / 195;
+	if (hour() == 7) {
+		timeOffset = (30 * 490) / 195;
 	}
 
-	if (hour() == 13) {
-		timeOffset = (120 * 490) / 195;
+	if (hour() == 8) {
+		timeOffset = (90 * 490) / 195;
 	}
 
 	if (hour() == 14) {
-		timeOffset = (180 * 490) / 195;
+		timeOffset = (150 * 490) / 195;
 		if(minute() > 15){
 			timeOffset = 0;
 		}
