@@ -207,16 +207,16 @@ img
 	
 }
 
-#youtube
+#twitch
 {
-	background-image: url(thumbs/209-2095201_youtube-dark-icon-black-youtube-logo-png.png);
+	background-image: url(thumbs/twitchLogo.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	float: right;
 	margin-right: 45px;
-	margin-top: 15px;
-	width: 30px;
-	height: 30px;
+	margin-top: 13px;
+	width: 70px;
+	height: 70px;
 }
 
 .thumb
