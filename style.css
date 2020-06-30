@@ -541,12 +541,12 @@ span
 #title
 {
 	position: absolute;
-	margin-top: -7px;
+	margin-top: -8px;
 	margin-left: 50px;
 	width: 270px;
 	height: 50px;
 	float: left;
-	font-size: 15px;
+	font-size: 16px;
 	font-family: 'Avenir Black';
 }
 
