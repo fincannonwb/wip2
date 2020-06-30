@@ -30,19 +30,19 @@ function draw() {
 
 	let sec = map(minute(), 0, totalMin, 0, 490);
 	
-	if(hour() == 15) {
+	if(hour() == 10) {
 		timeOffset = -((30*490)/195);
 	}
 
-	if (hour() == 16) {
+	if (hour() == 11) {
 		timeOffset = (30 * 490) / 195;
 	}
 
-	if (hour() == 17) {
+	if (hour() == 12) {
 		timeOffset = (90 * 490) / 195;
 	}
 
-	if (hour() == 18) {
+	if (hour() == 13) {
 		timeOffset = (150 * 490) / 195;
 		if(minute() > 15){
 			timeOffset = 0;
@@ -65,7 +65,13 @@ function draw() {
 //	if (hour() >= 11 && hour()<=15){
 //	rect(20, timeOffset + sec + 30 + triY, 420, 1);
 //	triangle(20, timeOffset + sec + 20 + triY, 30, timeOffset + sec + 30 + triY, 20, timeOffset + sec + 40 + triY);
-	triangle(triX + 1, triY + 1 + shapeOffset + 2, triX + triSize + 3, triY + triSize + shapeOffset + 2, triX + 1, triY + (triSize * 2) - 1 + shapeOffset + 2);
+	
+	
+	//uncomment on day of
+//	triangle(triX + 1, triY + 1 + shapeOffset + 2, triX + triSize + 3, triY + triSize + shapeOffset + 2, triX + 1, triY + (triSize * 2) - 1 + shapeOffset + 2);
+//	
+	
+	
 //	circle(triX, timeOffset + triY + 5 + shapeOffset, 9);
 //	}
 }
