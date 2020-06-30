@@ -40,23 +40,31 @@ html, body
 	
 }
 
-a
-{
-	text-decoration: none;
-	color:cadetblue;
-	cursor: pointer;
-}
-
 b
 {
 	font-family: 'Avenir Black';
 }
 
+em
+{
+	font-family: 'Avenir Book';
+
+}
+
 span
 {
 	color: black;
-	opacity: 50%;
+	
 }
+
+a
+{
+	text-decoration: none;
+	color:cadetblue;
+	cursor: pointer;
+	font-family: 'Avenir Book';
+}
+
 
 #container 
 {
@@ -260,14 +268,15 @@ img
 
 #livestream
 {
-	height: 470px;
+	width: 722px;
+	height: 540px;
 	position: absolute;
 	margin-top: 180px;
 	margin-left: 450px;
-	margin-bottom: 50px;
 	float: left;
 	font-size: 30px;
 	font-family: 'Avenir Black';
+	overflow: scroll;
 /*
 	border-bottom: solid;
 	border-width: 1px;
