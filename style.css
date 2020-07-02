@@ -40,6 +40,73 @@ html, body
 	
 }
 
+.t1
+{
+	position: absolute;
+	top: 0px;
+}
+
+.t2
+{
+	position: absolute;
+	top: 113px;
+}
+
+.t3
+{
+	position: absolute;
+	top: 151px;
+}
+
+.t4
+{
+	position: absolute;
+	top: 264px;
+}
+
+.t5
+{
+	position: absolute;
+	top: 378px;
+	left: 10px;
+}
+
+.t6
+{
+	position: absolute;
+	top: 490px;
+	left: 10px;
+}
+
+.g1
+{
+	left: 83px;
+}
+
+.n1
+{
+	position: absolute;
+	top: 125px;
+	left: 83px;
+	line-height: 22px;
+}
+
+.n2
+{
+	position: absolute;
+	top: 275px;
+	left: 83px;
+	line-height: 22px;
+}
+
+.n3
+{
+	position: absolute;
+	top: 503px;
+	left: 83px;
+	line-height: 22px;
+}
+
 b
 {
 	font-family: 'Avenir Black';
@@ -140,7 +207,6 @@ a
 	position: absolute;
 	width: 380px;
 	height: 605px;
-	float: left;
 	font-size: 25px;
 	margin-left: 25px;
 	margin-right: 0px;
@@ -153,24 +219,24 @@ a
 
 #date
 {
+	width: 200px;
+	height: 40px;
 	font-size: 15px;
 	margin-top: 22px;
-	margin-bottom: 24px;
 }
 
 #times
 {
+	position: absolute;
+	width: 250px;
+	top: 96px;
 	font-size: 15px;
-	line-height: 50%;
-	margin-right: 10px;
-	float: left;
 	font-family: 'Avenir Black';
 }
 
 #presenters
 {
 	font-size: 15px;
-	line-height: 50%;
 	float: left;
 	margin-left: 30px;
 	
@@ -478,6 +544,75 @@ b
 {
 	font-family: 'Avenir Black';
 }
+	
+
+	
+.n1
+{
+	position: absolute;
+	top: 112px;
+	left: 65px;
+	line-height: 22px;
+}
+
+.n2
+{
+	position: absolute;
+	top: 263px;
+	left: 65px;
+	line-height: 22px;
+}
+
+.n3
+{
+	position: absolute;
+	top: 490px;
+	left: 65px;
+	line-height: 22px;
+}
+	
+.t1
+{
+	position: absolute;
+	top: -6px;
+}
+
+.t2
+{
+	position: absolute;
+	top: 107px;
+}
+
+.t3
+{
+	position: absolute;
+	top: 145px;
+}
+
+.t4
+{
+	position: absolute;
+	top: 258px;
+}
+
+.t5
+{
+	position: absolute;
+	top: 371px;
+	left: 10px;
+}
+
+.t6
+{
+	position: absolute;
+	top: 484px;
+	left: 10px;
+}
+
+.g1
+{
+	left: 65px;
+}
 
 span
 {
@@ -564,7 +699,7 @@ span
 	font-size: 25px;
 	margin-left: 10px;
 	margin-right: 0px;
-	margin-top: 310px;
+	margin-top: 315px;
 	border-right: none;
 	border-bottom: solid;
 	border-width: 1px;
@@ -784,7 +919,7 @@ iframe
 	
 #batool
 {
-	margin-bottom: 270px;
+	margin-bottom: 250px;
 }
 #batoolImage
 {
