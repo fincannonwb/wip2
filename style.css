@@ -283,7 +283,7 @@ img
 
 #twitch
 {
-	background-image: url(thumbs/twitchLogo.png);
+	background-image: url(thumbs200x200/twitchLogo.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	float: right;
@@ -516,7 +516,7 @@ html, body
 	
 	#twitch
 {
-	background-image: url(thumbs/twitchLogo.png);
+	background-image: url(thumbs200x200/twitchLogo.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	float: right;
